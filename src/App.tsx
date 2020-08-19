@@ -6,6 +6,7 @@ import { TraitType } from "./enums"
 
 function App() {
     const [traits, setTraits] = useState<Array<Trait>>(AllTraits)
+    const selectedTraits = traits.filter((trait) => trait.selected)
 
     const toggleSelected: ToggleSelected = (selectedTrait) => {
         const updatedTraits = traits.map((trait) => {
@@ -30,12 +31,18 @@ function App() {
                 traits={traits}
                 toggleSelected={toggleSelected}
             />
-            <AbilityList traits={traits} traitType={TraitType.Benefits} />
             <AbilityList
-                traits={traits}
+                traits={selectedTraits}
+                traitType={TraitType.Benefits}
+            />
+            <AbilityList
+                traits={selectedTraits}
                 traitType={TraitType.DesperateActions}
             />
-            <AbilityList traits={traits} traitType={TraitType.Reactions} />
+            <AbilityList
+                traits={selectedTraits}
+                traitType={TraitType.Reactions}
+            />
             <a href="https://github.com/sjlevin/blood-and-bone-character-builder">
                 Source Code
             </a>
