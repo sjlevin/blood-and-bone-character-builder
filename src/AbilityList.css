@@ -1,0 +1,8 @@
+.capitalize {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.outlined {
+    outline: 1px solid;
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Tough",
+        "prerequisites": ["Strength 1"],
+        "benefits": ["+1 Vitality.", "+2 Armor while unarmored."],
+        "desperateActions": [
+            "When you would take more than 1 Wound from a single attack, you may reduce it to 1."
+        ]
+    },
+    {
+        "name": "Slayer",
+        "prerequisites": ["Strength 1 or Dexterity 1"],
+        "benefits": [
+            "Gain Advantage to Fighting and Archery Skill Checks made against Risen."
+        ],
+        "reactions": [
+            "If more than two Risen make Fighting Skill Checks against you in a round, you may attack an Adjacent Risen with your Fighting or Archery Skill Check."
+        ],
+        "desperateActions": [
+            "Make a Fighting or Archery Skill Check against a Risen."
+        ]
+    },
+    {
+        "name": "Berserker",
+        "prerequisites": ["Strength 4"],
+        "benefits": [
+            "After you receive a Wound that would result in yor death, you may make a Strength Check (CR 10). If successful, you do not die but heal 1 Wound instead. Increase the CR by 5 each subsequent time the Check is made. A Rest returns the CR to 10."
+        ]
+    }
+]
