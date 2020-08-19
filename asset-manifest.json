@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/blood-and-bone-character-builder/static/css/main.d586f256.chunk.css",
-    "main.js": "/blood-and-bone-character-builder/static/js/main.000df2dd.chunk.js",
-    "main.js.map": "/blood-and-bone-character-builder/static/js/main.000df2dd.chunk.js.map",
+    "main.js": "/blood-and-bone-character-builder/static/js/main.7a7874ee.chunk.js",
+    "main.js.map": "/blood-and-bone-character-builder/static/js/main.7a7874ee.chunk.js.map",
     "runtime-main.js": "/blood-and-bone-character-builder/static/js/runtime-main.7199bb86.js",
     "runtime-main.js.map": "/blood-and-bone-character-builder/static/js/runtime-main.7199bb86.js.map",
-    "static/js/2.5f103c0b.chunk.js": "/blood-and-bone-character-builder/static/js/2.5f103c0b.chunk.js",
-    "static/js/2.5f103c0b.chunk.js.map": "/blood-and-bone-character-builder/static/js/2.5f103c0b.chunk.js.map",
+    "static/js/2.b0efb7cf.chunk.js": "/blood-and-bone-character-builder/static/js/2.b0efb7cf.chunk.js",
+    "static/js/2.b0efb7cf.chunk.js.map": "/blood-and-bone-character-builder/static/js/2.b0efb7cf.chunk.js.map",
     "index.html": "/blood-and-bone-character-builder/index.html",
-    "precache-manifest.96fe09a86cfe1cb7789dbbf9189a3450.js": "/blood-and-bone-character-builder/precache-manifest.96fe09a86cfe1cb7789dbbf9189a3450.js",
+    "precache-manifest.24c188b7355cfaeadb24099bbae685ae.js": "/blood-and-bone-character-builder/precache-manifest.24c188b7355cfaeadb24099bbae685ae.js",
     "service-worker.js": "/blood-and-bone-character-builder/service-worker.js",
     "static/css/main.d586f256.chunk.css.map": "/blood-and-bone-character-builder/static/css/main.d586f256.chunk.css.map",
-    "static/js/2.5f103c0b.chunk.js.LICENSE.txt": "/blood-and-bone-character-builder/static/js/2.5f103c0b.chunk.js.LICENSE.txt"
+    "static/js/2.b0efb7cf.chunk.js.LICENSE.txt": "/blood-and-bone-character-builder/static/js/2.b0efb7cf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7199bb86.js",
-    "static/js/2.5f103c0b.chunk.js",
+    "static/js/2.b0efb7cf.chunk.js",
     "static/css/main.d586f256.chunk.css",
-    "static/js/main.000df2dd.chunk.js"
+    "static/js/main.7a7874ee.chunk.js"
   ]
 }
