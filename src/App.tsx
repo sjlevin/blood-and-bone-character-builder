@@ -27,6 +27,12 @@ function App() {
 
     return (
         <React.Fragment>
+            <p>
+                Work in Progress Character Builder for{" "}
+                <a href="https://www.arcana-games.com/bloodandbone">
+                    Blood and Bone by Arcana Games
+                </a>
+            </p>
             <TraitList
                 name={"All Traits"}
                 traits={traits}
@@ -44,6 +50,9 @@ function App() {
                 traits={selectedTraits}
                 traitType={TraitType.Reactions}
             />
+            <a href="https://github.com/sjlevin/blood-and-bone-character-builder">
+                Source Code
+            </a>
         </React.Fragment>
     )
 }
