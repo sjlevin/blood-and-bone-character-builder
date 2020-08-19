@@ -1,0 +1,1 @@
+{"version":3,"sources":["AbilityList.css"],"names":[],"mappings":"AAAA,YACI,yBAA0B,CAC1B,eACJ,CAEA,UACI,iBACJ","file":"main.d586f256.chunk.css","sourcesContent":[".capitalize {\n    text-transform: capitalize;\n    font-weight: bold;\n}\n\n.outlined {\n    outline: 1px solid;\n}\n"]}
