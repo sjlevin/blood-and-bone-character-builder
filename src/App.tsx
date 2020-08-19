@@ -5,10 +5,7 @@ import { AbilityList } from "./AbilityList"
 import { TraitType } from "./enums"
 
 function App() {
-    // return <React.Fragment>{JSON.stringify(allTraits[0])}</React.Fragment>
-
     const [traits, setTraits] = useState<Array<Trait>>(AllTraits)
-    const [selectedTraits, setSelectedTraits] = useState<Array<Trait>>([])
 
     const toggleSelected: ToggleSelected = (selectedTrait) => {
         const updatedTraits = traits.map((trait) => {
@@ -18,11 +15,6 @@ function App() {
             return trait
         })
         setTraits(updatedTraits)
-
-        const updatedSelectedTraits = updatedTraits.filter((trait) => {
-            return trait.selected
-        })
-        setSelectedTraits(updatedSelectedTraits)
     }
 
     return (
@@ -38,18 +30,12 @@ function App() {
                 traits={traits}
                 toggleSelected={toggleSelected}
             />
+            <AbilityList traits={traits} traitType={TraitType.Benefits} />
             <AbilityList
-                traits={selectedTraits}
-                traitType={TraitType.Benefits}
-            />
-            <AbilityList
-                traits={selectedTraits}
+                traits={traits}
                 traitType={TraitType.DesperateActions}
             />
-            <AbilityList
-                traits={selectedTraits}
-                traitType={TraitType.Reactions}
-            />
+            <AbilityList traits={traits} traitType={TraitType.Reactions} />
             <a href="https://github.com/sjlevin/blood-and-bone-character-builder">
                 Source Code
             </a>

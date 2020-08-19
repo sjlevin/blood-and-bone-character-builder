@@ -15,13 +15,15 @@ interface Ability {
 
 export const AbilityList: React.FC<Props> = ({ traits, traitType }) => {
     const abilityName = traitType.replace(/([A-Z])/g, " $1").trim()
-    const filteredAbilities = traits.map((trait) => {
-        const ability: Ability = {
-            name: trait.name,
-            texts: trait[traitType] || [],
-        }
-        return ability
-    })
+    const filteredAbilities = traits
+        .filter((trait) => trait.selected)
+        .map((trait) => {
+            const ability: Ability = {
+                name: trait.name,
+                texts: trait[traitType] || [],
+            }
+            return ability
+        })
 
     return (
         <div className="outlined">
