@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "59ac4ced24cf8be0c4ebed96bd6dde51",
+    "revision": "47b8eae599838313d4cb54eb36760224",
     "url": "/blood-and-bone-character-builder/index.html"
   },
   {
-    "revision": "e800bdd0f664ed610b96",
+    "revision": "f5b747ceb599b4180e89",
     "url": "/blood-and-bone-character-builder/static/css/main.d586f256.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/blood-and-bone-character-builder/static/js/2.b0efb7cf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e800bdd0f664ed610b96",
-    "url": "/blood-and-bone-character-builder/static/js/main.7a7874ee.chunk.js"
+    "revision": "f5b747ceb599b4180e89",
+    "url": "/blood-and-bone-character-builder/static/js/main.12c62d11.chunk.js"
   },
   {
     "revision": "76d20ca241e761a0a3a4",

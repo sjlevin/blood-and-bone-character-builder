@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/blood-and-bone-character-builder/static/css/main.d586f256.chunk.css",
-    "main.js": "/blood-and-bone-character-builder/static/js/main.7a7874ee.chunk.js",
-    "main.js.map": "/blood-and-bone-character-builder/static/js/main.7a7874ee.chunk.js.map",
+    "main.js": "/blood-and-bone-character-builder/static/js/main.12c62d11.chunk.js",
+    "main.js.map": "/blood-and-bone-character-builder/static/js/main.12c62d11.chunk.js.map",
     "runtime-main.js": "/blood-and-bone-character-builder/static/js/runtime-main.7199bb86.js",
     "runtime-main.js.map": "/blood-and-bone-character-builder/static/js/runtime-main.7199bb86.js.map",
     "static/js/2.b0efb7cf.chunk.js": "/blood-and-bone-character-builder/static/js/2.b0efb7cf.chunk.js",
     "static/js/2.b0efb7cf.chunk.js.map": "/blood-and-bone-character-builder/static/js/2.b0efb7cf.chunk.js.map",
     "index.html": "/blood-and-bone-character-builder/index.html",
-    "precache-manifest.24c188b7355cfaeadb24099bbae685ae.js": "/blood-and-bone-character-builder/precache-manifest.24c188b7355cfaeadb24099bbae685ae.js",
+    "precache-manifest.e2ef1a5568976205d5126849111f33ef.js": "/blood-and-bone-character-builder/precache-manifest.e2ef1a5568976205d5126849111f33ef.js",
     "service-worker.js": "/blood-and-bone-character-builder/service-worker.js",
     "static/css/main.d586f256.chunk.css.map": "/blood-and-bone-character-builder/static/css/main.d586f256.chunk.css.map",
     "static/js/2.b0efb7cf.chunk.js.LICENSE.txt": "/blood-and-bone-character-builder/static/js/2.b0efb7cf.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.7199bb86.js",
     "static/js/2.b0efb7cf.chunk.js",
     "static/css/main.d586f256.chunk.css",
-    "static/js/main.7a7874ee.chunk.js"
+    "static/js/main.12c62d11.chunk.js"
   ]
 }
