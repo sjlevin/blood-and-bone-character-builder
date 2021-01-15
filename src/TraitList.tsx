@@ -16,7 +16,7 @@ export const TraitList: React.FC<Props> = ({
         <>
             {name}:
             <ul>
-                {traits.map((trait) => (
+                {traits.sort((left, right) => left.name.localeCompare(right.name)).map((trait) => (
                     <TraitListItem
                         trait={trait}
                         toggleSelected={toggleSelected}

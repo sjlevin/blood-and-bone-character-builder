@@ -2,7 +2,10 @@
     {
         "name": "Tough",
         "prerequisites": ["Strength 1"],
-        "benefits": ["+1 Vitality.", "+2 Armor while unarmored."],
+        "buffs": [
+            {"attribute": "Vitality", "modifier": 1},
+            {"attribute": "Armor while unarmored", "modifier": 2}
+        ],
         "desperateActions": [
             "When you would take more than 1 Wound from a single attack, you may reduce it to 1."
         ]
@@ -25,6 +28,28 @@
         "prerequisites": ["Strength 4"],
         "benefits": [
             "After you receive a Wound that would result in yor death, you may make a Strength Check (CR 10). If successful, you do not die but heal 1 Wound instead. Increase the CR by 5 each subsequent time the Check is made. A Rest returns the CR to 10."
+        ]
+    },
+    {
+        "name": "Willful",
+        "prerequisites": ["Mind 2"],
+        "buffs": [
+            {"attribute": "Vitality", "modifier": 1}
+        ],
+        "benefits": [
+            "If you have 4 or more Mind, gain 1 more Vitality."
+        ]
+    },
+    {
+        "name": "Agile",
+        "prerequisites": ["Master Fighting"],
+        "buffs": [
+            {"attribute": "Armor while unarmored", "modifier": 1},
+            {"attribute": "Alacrity while unarmored", "modifier": 1},
+            {"attribute": "Chance of Major Wounds while unarmored", "modifier": 1}
+        ],
+        "reactions": [
+            "If you Wound an unwounded Character, you may attack them again with a Fighting Skill Check."
         ]
     }
 ]

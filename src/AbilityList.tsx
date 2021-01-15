@@ -16,9 +16,15 @@ interface Ability {
 export const AbilityList: React.FC<Props> = ({ traits, traitType }) => {
     const abilityName = traitType.replace(/([A-Z])/g, " $1").trim()
     const filteredAbilities = traits.map((trait) => {
+        let texts: Array<string>
+        if(traitType === TraitType.Buffs) {
+            texts = []
+        } else {
+            texts = trait[traitType] || []
+        }
         const ability: Ability = {
             name: trait.name,
-            texts: trait[traitType] || [],
+            texts: texts,
         }
         return ability
     })

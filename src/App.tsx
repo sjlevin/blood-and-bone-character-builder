@@ -3,6 +3,7 @@ import AllTraits from "./AllTraits.json"
 import { TraitList } from "./TraitList"
 import { AbilityList } from "./AbilityList"
 import { TraitType } from "./enums"
+import { BuffList } from "./BuffList"
 
 function App() {
     const [traits, setTraits] = useState<Array<Trait>>(AllTraits)
@@ -18,6 +19,9 @@ function App() {
         setTraits(updatedTraits)
     }
 
+    const selectedBuffs = new Map<string, number>()
+    selectedTraits.map(trait => trait.buffs).forEach((buffArray) => buffArray?.forEach((buff) => selectedBuffs.set(buff.attribute, buff.modifier + (selectedBuffs.get(buff.attribute) || 0))))
+
     return (
         <React.Fragment>
             <p>
@@ -30,6 +34,9 @@ function App() {
                 name={"All Traits"}
                 traits={traits}
                 toggleSelected={toggleSelected}
+            />
+            <BuffList
+                buffs={selectedBuffs}
             />
             <AbilityList
                 traits={selectedTraits}
