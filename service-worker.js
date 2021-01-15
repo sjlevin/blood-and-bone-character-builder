@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/blood-and-bone-character-builder/precache-manifest.e2ef1a5568976205d5126849111f33ef.js"
+  "/blood-and-bone-character-builder/precache-manifest.ab72ac18b38577ea9db802f82cc45b7b.js"
 );
 
 self.addEventListener('message', (event) => {
